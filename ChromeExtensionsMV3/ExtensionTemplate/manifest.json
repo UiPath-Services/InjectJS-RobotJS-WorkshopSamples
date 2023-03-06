@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Empty Extension Template",
+    "version": "1.0",
+    "description": "Template for an extension that uses Robot JS.",
+      "content_scripts": [
+        {
+          "js": ["scripts/UiPathRobot.js","scripts/content.js"],
+          "css": ["styles/style.css"],
+          "matches": [
+            "https://acme-test.uipath.com/*"
+          ]
+        }
+      ]
+  }
+  
