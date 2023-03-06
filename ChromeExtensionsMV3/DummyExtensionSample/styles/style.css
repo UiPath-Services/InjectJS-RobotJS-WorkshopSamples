@@ -1,0 +1,25 @@
+tr.highlight-row
+{
+    background:#FCF69C;
+}
+
+tr td.dueDate-container
+{
+    color:#11b80b;
+    font-weight: 700;
+    max-width: 60px;
+}
+
+.table tr.highlight-row td.wiid-container
+{
+    color:#4d4848;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.table tr.highlight-row td.wiid-container:hover
+{
+    color:#f05d08;
+    text-decoration:underline;
+    cursor:pointer;
+}

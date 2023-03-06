@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "ACME Test Helper",
+    "version": "1.1",
+    "description": "Add a series of extra features for the ACME test website.",
+      "content_scripts": [
+        {
+          "js": ["scripts/UiPathRobot.js","scripts/content.js"],
+          "css": ["styles/style.css"],
+          "matches": [
+            "https://acme-test.uipath.com/*"
+          ]
+        }
+      ]
+  }
+  
