@@ -37,6 +37,7 @@ function ExtendWorkItemsWithDueDate(rowType)
   });
 }
 
+//will require GetWorkItemDueDate process available in your UiPath Assistant
 function StartDueDateProcess(event)
 {
   const wiidCell = event.currentTarget;
