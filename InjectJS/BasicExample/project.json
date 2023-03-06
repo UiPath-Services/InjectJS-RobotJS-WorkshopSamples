@@ -1,5 +1,5 @@
 {
-  "name": "Example",
+  "name": "Basic Example",
   "description": "Blank Process",
   "main": "InjectVisualAssistant.xaml",
   "dependencies": {

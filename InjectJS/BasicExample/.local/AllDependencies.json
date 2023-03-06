@@ -20731,11 +20731,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Example",
-      "projectName": "Example",
-      "projectPath": "C:\\UiPath\\Trainings\\JS + MV3\\InjectJS\\Example\\.local",
+      "projectUniqueName": "Basic Example",
+      "projectName": "Basic Example",
+      "projectPath": "C:\\UiPath\\Trainings\\JS + MV3\\repo\\InjectJS\\BasicExample\\.local",
       "packagesPath": "C:\\Users\\radu.bucur\\.nuget\\packages\\",
-      "outputPath": "C:\\UiPath\\Trainings\\JS + MV3\\InjectJS\\Example\\.local",
+      "outputPath": "C:\\UiPath\\Trainings\\JS + MV3\\repo\\InjectJS\\BasicExample\\.local",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ]

@@ -8,8 +8,7 @@ function(element, rowType){
 		}
     }
 
-	//inject a custom class in one of the elements,
-	//so that we can execute action when this element disappears
+	//inject a custom class in one of the elements, this makes it easier to detect when the page refreshes
 	var table = document.querySelector("table.table");
 	table.classList.add("achy-breaky-class");
 	
