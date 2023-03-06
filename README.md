@@ -11,8 +11,7 @@ This repo contains the following samples:
 + Automatically injecting JavaScript into a page via the **Trigger Activities**
 + Extending a website's features and allowing users to execute jobs directly from the browser using **a Chrome Extension and RobotJS**
 
-
-
 ## Observations
-+ Browser Extensions samples are built for Chrome using the MV3 standard
++ Browser Extensions sample is built for Chrome using the MV3 standard
++ Browser Extension sample will require the **GetWorkItemDueDate** process to be available in your assistant in order to function
 + All Samples require the ACME Test Website to run: https://acme-test.uipath.com/work-items (you will need to create an account in order to use this)
