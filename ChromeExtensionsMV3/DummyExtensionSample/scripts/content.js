@@ -1,10 +1,13 @@
 // Call start
 let processes;
+
+//This is an anonymous function; The (function(){...})(); syntax ensures it will execute as soon as the script is loaded
 (async() => {
   processes = await UiPathRobot.getProcesses();
   const table = document.querySelector("table.table");
   AppendTableColumn(table,"Due Date","dueDate-container");
   ExtendWorkItemsWithDueDate("WI5");
+  console.log("Setup Successful!");
 })();
 
 function AppendTableColumn(table, headerName, contentCellClass)
@@ -27,6 +30,7 @@ function ExtendWorkItemsWithDueDate(rowType)
 {
   var rows = document.querySelectorAll("tr");
   rows.forEach((row) => {
+    //if any of the cells in the current row has the inner text equal to rowType
     if(Array.from(row.children).some(cell => cell.innerText == rowType))
     {
       row.classList.add("highlight-row");

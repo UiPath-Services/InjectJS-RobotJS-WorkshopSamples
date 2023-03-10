@@ -1,6 +1,7 @@
 // Call start
 let processes;
 
+//This is an anonymous function; The (function(){...})(); syntax ensures it will execute as soon as the script is loaded
 (async() => {
   //get available processes
   processes = await UiPathRobot.getProcesses();
